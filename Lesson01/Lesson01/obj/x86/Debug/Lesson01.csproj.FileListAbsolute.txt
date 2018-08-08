@@ -1,0 +1,5 @@
+C:\Users\moxi\Desktop\C#Workspace\Lesson01\Lesson01\bin\Debug\Lesson01.exe
+C:\Users\moxi\Desktop\C#Workspace\Lesson01\Lesson01\bin\Debug\Lesson01.pdb
+C:\Users\moxi\Desktop\C#Workspace\Lesson01\Lesson01\obj\x86\Debug\Lesson01.csprojResolveAssemblyReference.cache
+C:\Users\moxi\Desktop\C#Workspace\Lesson01\Lesson01\obj\x86\Debug\Lesson01.exe
+C:\Users\moxi\Desktop\C#Workspace\Lesson01\Lesson01\obj\x86\Debug\Lesson01.pdb
