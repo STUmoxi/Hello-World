@@ -1,0 +1,640 @@
+[ 2018-09-10T18:49:10+08:00 ] ::1 /vueapi/index.php/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-09-10T18:51:52+08:00 ] ::1 /vueapi/index.php/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-09-10T18:52:41+08:00 ] ::1 /vueapi/index.php/Home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-09-10T20:01:27+08:00 ] ::1 /vueapi/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2018-09-10T20:07:11+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2018-09-10T20:25:42+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T20:26:29+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T20:26:29+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T20:54:23+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T20:54:23+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T20:56:31+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T20:56:31+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:10:16+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:10:17+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T21:13:12+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:13:12+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:16:21+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:16:21+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:19:05+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:19:06+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T21:19:30+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T21:19:30+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T21:34:28+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-10T21:34:28+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-09-10T21:35:00+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-09-10T21:35:00+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2018-09-10T21:37:10+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T21:37:11+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T22:29:29+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T22:29:29+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T22:44:33+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 20 行.
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: password E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 22 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T22:46:06+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T22:48:08+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T22:48:08+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T22:59:47+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T22:59:47+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T23:12:25+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T23:12:25+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T23:14:35+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T23:14:35+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: username E:\AppServ\www\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2018-09-10T23:26:10+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T23:33:13+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T23:34:17+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T23:37:11+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-09-10T23:40:35+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-09-10T23:51:35+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zhangsan'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'zhangsan' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+
